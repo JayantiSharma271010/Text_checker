@@ -37,7 +37,7 @@ const getNumbers = (urName)=>{
 }
 
 const getFirstChar = (urName)=>{
-    return urName.at(0)
+    return urName.trim().at(0)
 }
 
 const getLastChar = (urName)=>{
